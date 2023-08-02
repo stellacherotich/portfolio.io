@@ -142,54 +142,8 @@
                 </div>
                 <a href="https://drive.google.com/file/d/1S_SZJe3WFd5iakrviikAfyzqlS_LZhde/view?usp=sharing" target="_blank" download class="btn btn2">Download CV</a>
             </div>
-            <div class="contact-right">
-                <form action="https://script.google.com/macros/s/AKfycbwJJAtcjZah0bNHil_t9MebnzY2dtkY-yelnDli0Qa1KQufZwzDC7145B-p4kuv8CBW3g/exec" method="POST" name="submit-to-google-sheet">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="btn btn2">Send Message</button>
-                </form>
-                <div id="msg"></div> <!-- This div will display the response message -->
-            </div>
-        </div>
-    </div>
-    </section>
 
-<footer id="footer">
-    <div class="container">
-        <p>&copy; 2023 Stella's Portfolio. All rights reserved.</p>
-        <p>Email: stellaacherotich@gmail.com</p>
-    </div>
-</footer>
 
-<script>
-    const menuIcon = document.querySelector('.fa-bars');
-    const sideMenu = document.querySelector('nav ul');
-
-    menuIcon.addEventListener('click', () => {
-        sideMenu.classList.toggle('active');
-    });
-
-    const form = document.querySelector('form[name="submit-to-google-sheet"]');
-    const msg = document.getElementById('msg');
-
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbwJJAtcjZah0bNHil_t9MebnzY2dtkY-yelnDli0Qa1KQufZwzDC7145B-p4kuv8CBW3g/exec', {
-            method: 'POST',
-            body: formData
-        })
-            .then(response => response.json())
-            .then(data => {
-                msg.innerText = data.message;
-                form.reset();
-            })
-            .catch(error => {
-                msg.innerText = 'An error occurred. Please try again later.';
-            });
-    });
-</script>
 </body>
 
 </html>
