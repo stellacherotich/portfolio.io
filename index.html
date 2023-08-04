@@ -164,3 +164,13 @@
 </body>
 
 </html>
+
+<!-- Add this script at the end of your HTML body -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".fa-solid").click(function () {
+      $("nav").toggleClass("active");
+    });
+  });
+</script>
