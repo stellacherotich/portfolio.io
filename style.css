@@ -485,7 +485,7 @@ form .btn2 {
     #header {
         width: 100%;
         height: 100vh;
-        background: linear-gradient(#fb6dab, #e2bf79, #d9835e);
+
     }
 
     /*sub header size*/
@@ -499,7 +499,8 @@ form .btn2 {
 
     /*header size*/
     .header-text h1 {
-        font-size: 8vw;
+        font-size: 10vw;
+        text-align: center;
     }
 
 
@@ -508,37 +509,43 @@ form .btn2 {
         display: block;
         font-size: 5vw;
     }
-
-    /*creating a right banner for the icons*/
+    
+    /*creating a right banner for the icons */
+    
     nav ul {
         background: #bb8588;
         position: fixed;
         top: 0;
-        right: -25vw;
-        /*when this is 0, the side bar appears*/
+        right: -25vw; /* Updated the right property to hide the navigation bar */
         width: 25vw;
         height: 100vh;
         padding-top: 10vw;
         z-index: 2;
-    }
-
-    /* moving all the icons right*/
-    nav ul li {
+        transition: right 0.3s; /* Added transition for smoother animation */
+     }
+     
+     /* moving all the icons right */
+     nav ul li {
         display: block;
         margin: 5vw;
-    }
-
-    nav ul li a {
+     }
+     
+     nav ul li a {
         font-size: 3vw;
-    }
-
-    /*fixing the icons*/
-    nav .fa-solid {
+     }
+     
+     /*fixing the icons */
+     nav .fa-solid {
         position: absolute;
         top: 4vh;
-        left: 6vw;
-        cursor: pointer;
-    }
+        left: 3vw;
+  }
+
+    /* Handle the navigation bar animation */
+     nav.active ul {
+        right: 0; /* Show the navigation bar when active class is applied */
+      }
+
 
     /* ------------About section*-----------------*/
 
