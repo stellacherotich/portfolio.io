@@ -635,6 +635,19 @@ form .btn2 {
         height: 7vh;
         text-align: center;
     }
+    /*----------- Blog Section -------------- */
+    #blog {
+        padding: 15vh 0;
+    }
+    
+    #blog h1 {
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 3vh;
+    }
+
 
     /* ------------Contact section*-----------------*/
 
