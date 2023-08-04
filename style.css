@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: linear-gradient(#db8fb7, #f5d79a, #c88b71);
+    background: linear-gradient(#fb6dab, #e2bf79, #d9835e);
     color: #fff;
 }
 
@@ -478,3 +478,216 @@ form .btn2 {
     background-color: #f0edce;
     color: #262626;
 }
+
+
+/*---------------------CCS for Small Screen Section----------------------------*/
+@media only screen and (max-width: 600px) {
+    #header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/logomobile.png);
+    }
+}
+
+    /*sub header size*/
+    .header-text {
+        margin-top: 100%;
+        font-size: 5vw;
+        top: 1vh;
+        left: 20vw;
+
+    }
+
+    /*header size*/
+    .header-text h1 {
+        font-size: 8vw;
+    }
+
+
+    /* sizing the bar and x icons*/
+    nav .fa-solid {
+        display: block;
+        font-size: 5vw;
+    }
+
+    /*creating a right banner for the icons*/
+    nav ul {
+        background: #bb8588;
+        position: fixed;
+        top: 0;
+        right: -25vw;
+        /*when this is 0, the side bar appears*/
+        width: 25vw;
+        height: 100vh;
+        padding-top: 10vw;
+        z-index: 2;
+    }
+
+    /* moving all the icons right*/
+    nav ul li {
+        display: block;
+        margin: 5vw;
+    }
+
+    nav ul li a {
+        font-size: 3vw;
+    }
+
+    /*fixing the icons*/
+    nav .fa-solid {
+        position: absolute;
+        top: 4vh;
+        left: 6vw;
+        cursor: pointer;
+    }
+
+    /* ------------About section*-----------------*/
+
+
+    .sub-title {
+        font-size: 8vw;
+
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .about-col-1 {
+        order: 1;
+        flex-basis: 100%;
+        margin-bottom: 1vh;
+    }
+
+    .about-col-2 {
+        order: 2;
+        flex-basis: 100%;
+    }
+
+
+    .about-summary {
+        font-size: 4vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+
+    .with-space {
+        font-size: 4vw;
+    }
+
+    /* ------------Project section*-----------------*/
+    #projects {
+        padding: 15vh 0;
+    }
+
+    .project-list {
+        display: block;
+        margin-top: 4vh;
+        font-size: 2.5vw;
+    }
+
+    .project {
+        margin-bottom: 4vh;
+    }
+
+    .layer a {
+        margin-top: 2vh;
+        color: #bb8588;
+        text-decoration: none;
+        font-size: 2vw;
+        line-height: 3vh;
+        background: #fff;
+        width: 3vh;
+        height: 3vh;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    /* ------------Dashboard section*-----------------*/
+    #Dashboards {
+        margin-top: 1vh;
+    }
+
+    .dashboard-list {
+        display: block;
+        margin-top: 4vh;
+        font-size: 2.5vw;
+    }
+
+    .dashboard {
+        margin-bottom: 4vh;
+    }
+
+
+    .layer1 a {
+        margin-top: 2vh;
+        color: #bb8588;
+        text-decoration: none;
+        font-size: 5vw;
+        line-height: 7vh;
+        width: 7vh;
+        height: 7vh;
+        text-align: center;
+    }
+
+    /* ------------Contact section*-----------------*/
+
+    #contact {
+        margin-top: 4vh;
+    }
+
+    .contact-left {
+        order: 1;
+        flex-basis: 100%;
+        margin-bottom: 1vh;
+    }
+
+    .contact-right {
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    .contact-left p {
+        font-size: 5vw;
+    }
+
+    .contact-left p i {
+        color: #bb8588;
+        margin-right: 0.3vw;
+        font-size: 4vw;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .social-icons {
+        margin-top: 3vh;
+    }
+
+    .social-icons a {
+        text-decoration: none;
+        font-size: 4vw;
+        margin-right: 0.8vw;
+        color: #ababab;
+        display: inline-block;
+        transition: transform 0.5s;
+    }
+
+    .social-icons a:hover {
+        color: #bb8588;
+        transform: translateY(-0.5vh);
+    }
+
+    .btn.btn2 {
+        margin-top: 2vh;
+        display: inline-block;
+        padding: 1vh 2vh;
+        background: #bb8588;
+        color: #fff;
+        text-decoration: none;
+        font-size: 3vw;
+        border-radius: 2vw;
+    }
