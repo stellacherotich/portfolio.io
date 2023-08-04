@@ -22,7 +22,7 @@ body {
     background-image: url(images/logo.png);
     background-size: cover;
     background-position: center;
-}
+    }
 
 /* apply space around the icons */
 .container {
@@ -482,9 +482,14 @@ form .btn2 {
 
 /*---------------------CCS for Small Screen Section----------------------------*/
 @media only screen and (max-width: 600px) {
+    #header {
+        width: 100%;
+        height: 100vh;
+    
+    }
     
     body {
-        background: linear-gradient(#fb6dab, #e2bf79, #d9835e);
+      background-image: url(images/logomobile.png);
       }
     /*sub header size*/
     .header-text {
