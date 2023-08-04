@@ -487,7 +487,6 @@ form .btn2 {
         height: 100vh;
         background-image: url(images/logomobile.png);
     }
-}
 
     /*sub header size*/
     .header-text {
@@ -691,3 +690,4 @@ form .btn2 {
         font-size: 3vw;
         border-radius: 2vw;
     }
+}
