@@ -512,7 +512,7 @@ form .btn2 {
     /*creating a right banner for the icons */
     
     nav ul {
-        background: #ae95a2;
+        background: #f2ddee;
         position: fixed;
         top: 0;
         right: -25vw; /* Updated the right property to hide the navigation bar */
@@ -642,7 +642,7 @@ form .btn2 {
     
     #blog h1 {
         text-align: center;
-        font-size: 5vw;
+        font-size: 8vw;
         font-weight: bold;
         color: white;
         margin-bottom: 3vh;
@@ -689,13 +689,13 @@ form .btn2 {
         text-decoration: none;
         font-size: 4vw;
         margin-right: 0.8vw;
-        color: #ababab;
+        color: #f1d9c1;
         display: inline-block;
         transition: transform 0.5s;
     }
 
     .social-icons a:hover {
-        color: #bb8588;
+        color: #e4a6d1;
         transform: translateY(-0.5vh);
     }
 
