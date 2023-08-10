@@ -255,7 +255,7 @@ nav ul li a:hover::after {
 
 .layer1 a {
     margin-top: 2vh;
-    color: #bb8588;
+    color: #ffedd2;
     text-decoration: none;
     font-size: 2vw;
     line-height: 7vh;
@@ -353,7 +353,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #bb8588;
+    color: #e4c593;
     margin-right: 0.3vw;
     font-size: 1.5vw;
 }
@@ -371,13 +371,13 @@ a {
     text-decoration: none;
     font-size: 2vw;
     margin-right: 0.8vw;
-    color: #f0eed5;
+    color: #ecc88a;
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .social-icons a:hover {
-    color: #bb8588;
+    color: #000;
     transform: translateY(-0.5vh);
 }
 
@@ -385,7 +385,7 @@ a {
     margin-top: 2vh;
     display: inline-block;
     padding: 1vh 2vh;
-    background: #bb8588;
+    background: #d8afb1;
     color: #fff;
     text-decoration: none;
     font-size: 1vw;
