@@ -99,8 +99,12 @@ nav ul li a:hover::after {
 #about {
     padding: 7.4vh 0;
     color: #ababab;
+    display: flex;
+    /* Center the content horizontally */
+    justify-content: center;
+    /* Center the content vertically */
+    align-items: center;
 }
-
 .row {
     display: flex;
     /* to get content side by side */
